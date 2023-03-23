@@ -3,6 +3,7 @@ html, body{
     margin:0;
     font-family: 'Times New Roman', Times, serif;
     background-color:#191919;
+    height: auto;
 }
 .hero,.hero-1,.hero-2,.hero-3{
     height: 80vh;
@@ -15,7 +16,7 @@ html, body{
 .hero-4{
     height: 80vh;
     width: 100%;
-    background-image:linear-gradient(rgba(5, 19, 73, 0.7),rgba(5, 19, 73, 0.7)),url("file:///C:/Users/hp/Desktop/My%20Portfolio/images/Screenshot_20220723-142426.png ");
+    background-image:linear-gradient(rgba(5, 19, 73, 0.7),rgba(5, 19, 73, 0.7)),url("images/poster16.jpg.png");
     background-size:cover;
     background-position: center;
     position: relative;
@@ -306,6 +307,8 @@ h4{
   letter-spacing: 1px;
   font-size:15px;
   color:whitesmoke;
+  margin-bottom: 5%;
+  padding-top: 35px;
 }
 /*.content .newslatter form{
   width:380px;max-width: 100%;
@@ -810,7 +813,7 @@ footer p:nth-child(2){
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f900fd;
+  background: #fff;
   border-radius: 50%;
   margin: 20px 10px;
   color: gold;
@@ -839,4 +842,7 @@ footer p:nth-child(2){
     body{
         font-size: 16px;
     }
+}
+.move-right{
+    float: right;
 }
